@@ -1,0 +1,100 @@
+
+/* Header Component*/
+.header{
+    width: 100%;
+    background: url("../Images/gautrain.png");
+    background-size: unset;
+    transition: 2s;
+    overflow: hidden;
+}
+
+.big{
+    height: 50%;
+}
+
+.small{
+    height: 105px;
+}
+
+.header .overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.65);
+    overflow: hidden;
+}
+
+.header .overlay img{
+    height: 70px;    
+}
+
+.centre{
+    margin-top: calc(50% - 35px);
+}
+
+.top{
+    margin-top: 0px;
+}
+
+/* Hero Text */
+
+.heroText{
+    font-size: 1.7em;
+    color: #000;
+}
+
+
+/* Default Input */
+
+.defaultInput{
+    width: 70%;
+    height: 45px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px 3px rgba(0,0,0,.165);
+    border: 0px;
+    margin-top: 30px;
+    padding: 0px 10px;
+    font-size: .9em;
+    text-align: center;
+}
+
+/* Main Button */
+
+.mainButton{
+    width: 60%;
+    height: 45px;
+    background-color: #000;
+    border: 0px;
+    box-shadow: 0px 4px 8px 3px rgba(0,0,0,.165);
+    color: #fff;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+/* List Item */
+
+.listItem{
+    border-bottom: 1px #f2f2f2 solid;
+    padding-bottom: 10px;
+}
+
+
+/* Results Panel */
+
+.resultsPanel{
+    width: 100%;
+    height: calc(100% - 105px);
+    background-color: #fff;
+    position: fixed;
+    top: 105px;
+    display: none;
+}
+
+/* Global */
+input, select, button{
+    border-radius: 4px;
+}
+
+.inputParent{
+    margin-top: -30px;
+}
+
